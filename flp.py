@@ -1,7 +1,7 @@
 import math
 
 def solution(n):
-    result = n
+    result = int(n)
     counter = 0
     while result != 1:
         power = int(math.log (result,2) + 0.5)
@@ -23,4 +23,4 @@ def solution(n):
 
 #el 3 está malo
 
-print(solution(4))
+print(solution('4'))
